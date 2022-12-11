@@ -1,0 +1,63 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+.pageHeader {
+
+background-color: #EAC926;
+
+}
+
+.mano 
+{
+margin-left: 85px;
+margin-top: 25px;
+}
+
+.logo{
+
+    height: 75px;
+   margin-top: 25px;
+   margin-left: 35px;
+}
+
+.buscador{
+
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#lupa {
+
+    margin-left: 40px;
+    background-color: white;
+    border-style: solid;
+    }
+
+
+footer {
+
+  text-align: center;
+  background-color: #EAC926;
+  margin: auto;
+  border-radius: 40px;
+  font-family: cursive;
+
+
+}
+
+#menu {
+
+    background-color: blue;
+    margin-left: 200px;
+    margin: 25px;
+    margin-left: 200px;
+    
+    }
+
+.oferta {
+
+margin: 30px;
+margin-left: auto;
+}
