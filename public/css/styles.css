@@ -3,6 +3,22 @@
     margin: 0;
     padding: 0;
 }
+.caracteristica-main{
+
+    
+    width: 90vw;
+    margin: auto;
+    
+}
+.w-100{
+
+width: 100%;
+}
+.w-50{
+
+    width: 50%;
+}
+
 
 .pageHeader {
 
@@ -16,6 +32,7 @@ margin-left: 85px;
 margin-top: 25px;
 }
 
+
 .logo{
 
     height: 75px;
@@ -28,13 +45,26 @@ margin-top: 25px;
     margin-left: 40px;
     margin-top: 20px;
 }
-#lupa {
 
-    margin-left: 40px;
+article {
+    
+    margin-bottom: 10px;
+    border: solid 1px #ebebeb;
     background-color: white;
-    border-style: solid;
-    }
+    
+ }
 
+.detail-products{
+
+  margin: 15px;
+
+}
+
+.bg-gris{
+
+
+    background-color: #ebebeb;
+}
 
 footer {
 
@@ -47,17 +77,33 @@ footer {
 
 }
 
-#menu {
+.menu {
 
-    background-color: blue;
-    margin-left: 200px;
-    margin: 25px;
-    margin-left: 200px;
+     width: 50px;
+     height: 50px;
+     background-color: #1259c3;
+     border-radius: 5px;
+     margin: auto;
+     text-align: center;
     
     }
+
+.menu-centrado{
+
+  font-size: 2em;
+  color: white;
+  margin-top: 10px;
+
+}
 
 .oferta {
 
 margin: 30px;
 margin-left: auto;
+}
+
+.titulo-size {
+  font-size: 24px;
+  color: #666;
+
 }
