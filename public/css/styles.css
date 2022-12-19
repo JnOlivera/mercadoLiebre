@@ -2,14 +2,16 @@
 
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .caracteristica-main{
-
-    
+ 
     width: 90vw;
     margin: auto;
     
 }
+
+
 .w-100{
 
 width: 100%;
@@ -46,19 +48,41 @@ margin-top: 25px;
     margin-top: 20px;
 }
 
-article {
-    
+ .caracteristicas-productos{
+
+    background-color: white;
     margin-bottom: 10px;
     border: solid 1px #ebebeb;
-    background-color: white;
-    
- }
+    box-sizing: border-box;
 
-.detail-products{
-
-  margin: 15px;
+ 
 
 }
+.detalles-productos{
+
+    margin: 15px;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+.detalles-productos i  {
+display: block;
+font-size: 16px;
+padding: 5px;
+width: 30px;
+height: 30px;
+color: #39b54a;
+border: 1px solid #39b54a;
+background-color: #FFF;
+border-radius: 50%;
+position: absolute;
+right: 20px;
+top: -35px;
+
+    
+}
+
 
 .bg-gris{
 
@@ -109,6 +133,23 @@ margin-left: auto;
 }
 
 @media (min-width:481px){
+
+  .caracteristicas-productos {
+
+        width: 40vw;
+        background-color: white;
+        margin-bottom: 10px;
+        border: solid 1px #ebebeb;
+        box-sizing: border-box;
+
+    }
+
+    .seccion-productos 
+    {
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
     
 }
 
@@ -120,10 +161,88 @@ margin-left: auto;
     .description {
      display:none;
     }
+    .caracteristicas-productos {
+
+        width: 20vw;
+        background-color: white;
+        margin-bottom: 10px;
+        border: solid 1px #ebebeb;
+        box-sizing: border-box;
+    }
+
+    .seccion-productos 
+    {
+        display:flex;
+        justify-content: space-between;
+    }
+    .buscar{
+
+      display:flex;
+    }
+
 }
 @media(min-width:1281px){
-  
+   .caracteristicas-productos {
+
+       width: 20vw;
+        background-color: white;
+        margin-bottom: 10px;
+        border: solid 1px #ebebeb;
+        box-sizing: border-box;
+    }
+
+    .seccion-productos 
+    {
+     display:flex;
+        justify-content: space-between;
+
+
+    }
 }
+
 .product-shadow{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+ 
+.precio-cafetera {
+  display: flex;
+  
+ 
+}
+.precio-productos {
+  display: flex;
+  justify-content: flex-start;
+
+}
+.precio{
+ width: 30vw;
+ font-size: 18px;
+ align-items: flex-start;
+
+}
+.descuento {
+
+  color: #39b54a;
+  width: 70vw;
+  font-size: 16px;
+
+}
+.imagen {
+
+
+  border-bottom: 1px solid grey;
+}
+
+.caracteristica-header
+{
+display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+.caracteristica-logo{
+
+  width: 50vw;
+  
 }
