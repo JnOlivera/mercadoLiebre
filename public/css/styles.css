@@ -4,12 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-.caracteristica-main{
- 
-    width: 90vw;
-    margin: auto;
-    
-}
+body{
+
+ font-family: 'Roboto', sans-serif;
+ }
 
 
 .w-100{
@@ -21,31 +19,22 @@ width: 100%;
     width: 50%;
 }
 
-
 .pageHeader {
 
 background-color: #EAC926;
 
 }
 
-.mano 
+.mano-centrada
 {
-margin-left: 85px;
-margin-top: 25px;
+margin: auto;
+padding-top: 15px;
+
 }
-
-
-.logo{
-
-    height: 75px;
-   margin-top: 25px;
-   margin-left: 35px;
-}
-
 .buscador{
 
-    margin-left: 40px;
-    margin-top: 20px;
+    width: 70%;
+    margin-left: 20px;
 }
 
  .caracteristicas-productos{
@@ -54,10 +43,12 @@ margin-top: 25px;
     margin-bottom: 10px;
     border: solid 1px #ebebeb;
     box-sizing: border-box;
+  
+} 
 
- 
-
-}
+  .formulario-busqueda{
+    width: 50vw;
+  }
 .detalles-productos{
 
     margin: 15px;
@@ -79,8 +70,7 @@ border-radius: 50%;
 position: absolute;
 right: 20px;
 top: -35px;
-
-    
+   
 }
 
 
@@ -90,17 +80,54 @@ top: -35px;
     background-color: #ebebeb;
 }
 
-footer {
+.piedepagina{
 
-  text-align: center;
-  background-color: #EAC926;
-  margin: auto;
-  border-radius: 40px;
-  font-family: cursive;
-
-
+        width: 100%;
+         background-color: white;
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
 }
 
+.tarjetas {
+ width: 100%;
+  display: flex;
+ text-align: center;
+  padding-top: 15px;
+  
+}
+.copy{
+width: 100%;
+margin-top: 10px;
+text-align: center;
+ 
+}
+.autor{
+ 
+  width: 100%;
+  margin-top: 10px;
+text-align: center;
+}
+.foot{
+
+  font-family: cursive;
+}
+.diseñofooter{
+
+  color: #1259c3;
+}
+.diseñofooter:hover{
+  
+   color: #666;
+   transform: scale(1.50);
+  
+}
+.compra-venta{
+
+margin: 15px;
+
+}
 .menu {
 
      width: 50px;
@@ -110,6 +137,8 @@ footer {
      margin: auto;
      text-align: center;
     
+     
+    
     }
 
 .menu-centrado{
@@ -117,9 +146,13 @@ footer {
   font-size: 2em;
   color: white;
   margin-top: 10px;
+   
 
 }
+.cq{
 
+  margin-left: 80px;
+}
 .oferta {
 
 margin: 30px;
@@ -134,72 +167,8 @@ margin-left: auto;
   margin-bottom: 20px;
 
 }
-
-@media (min-width:481px){
-
-  .caracteristicas-productos {
-
-        width: 40vw;
-        background-color: white;
-        margin-bottom: 10px;
-        border: solid 1px #ebebeb;
-        box-sizing: border-box;
-
-    }
-
-    .seccion-productos 
-    {
-        display:flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    
-}
-
-@media(min-width:769px){
-    
-   .product-shadow{
-    box-shadow: none;
-    }
-    .description {
-     display:none;
-    }
-    .caracteristicas-productos {
-
-        width: 20vw;
-        background-color: white;
-        margin-bottom: 10px;
-        border: solid 1px #ebebeb;
-        box-sizing: border-box;
-    }
-
-    .seccion-productos 
-    {
-        display:flex;
-        justify-content: space-between;
-    }
-    .buscar{
-
-      display:flex;
-    }
-
-}
-@media(min-width:1281px){
-   .caracteristicas-productos {
-
-       width: 20vw;
-        background-color: white;
-        margin-bottom: 10px;
-        border: solid 1px #ebebeb;
-        box-sizing: border-box;
-    }
-
-    .seccion-productos 
-    {
-     display:flex;
-        justify-content: space-between;
-
-    }
+.cajanav{
+ display: none;
 }
 
 .product-shadow{
@@ -226,7 +195,7 @@ margin-left: auto;
 .descuento {
 
   color: #39b54a;
-  width: 70vw;
+  width: 80vw;
   font-size: 16px;
 
 
@@ -247,11 +216,10 @@ color: #666;
 
 .caracteristica-header
 {
-display: flex;
+   display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 20px;
-
 }
 .caracteristica-logo{
 
@@ -264,13 +232,25 @@ width: 100%;
 background-color:white;
 padding: 10px;
 border-radius: 4px;
-margin-bottom: 16px;
+margin-bottom: 13px;
 border: 1px ;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 15px;
 
 }
+.controls1{
+width: 50%;
+background-color:white;
+padding: 10px;
+border-radius: 4px;
+margin-bottom: 15px;
+border: 1px ;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 15px;
+margin-left: 25%;
 
+
+}
 .letraF{
 
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -285,11 +265,6 @@ font-size: 15px;
   
 }
 
-.c{
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
 .form-register{
 
 width: 400px;
@@ -298,21 +273,278 @@ padding: 30px;
 margin: auto;
 margin-top: 100px;
 box-shadow: 7px 13px 73x #666;
+margin-bottom: 40px;
+}
+.form-register1{
+width: 100%;
+background: #E5E7E9;
+box-shadow: 7px 13px 73x #666;
+
 }
 
-.buttons {
+.buttons{
 
 width: 100%;
-background-color: white;
+background-color: blue;
 padding: 12px;
 padding-bottom: 15px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 15px;
 border: none;
 margin: 16px 0;
+color: white;
+}
+
+
+.buttons1{
+
+width: 50%;
+background-color: blue;
+padding: 12px;
+padding-bottom: 15px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 15px;
+border: none;
+margin: 16px 0;
+color: white;
+margin-left: 25%;
+margin-top: 15px;
 }
 .chex{
 
 padding-bottom: 15px;
+display: flex;
+flex-direction: column;
 
+}
+.caracteristica-main{
+ 
+    width: 90vw;
+    margin: auto;
+    
+}
+
+
+@media (min-width:481px){
+  /*tablet*/
+
+  .caracteristica-header{
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+}
+
+  .caracteristicas-productos {
+
+        width: 40vw;
+        background-color: white;
+        margin-bottom: 10px;
+        border: solid 1px #ebebeb;
+        box-sizing: border-box;
+
+    }
+
+    .seccion-productos 
+    {
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .cajanav {
+      display: contents;
+      
+    }
+    .bus{
+      width: 20vw;
+      margin: 50px;
+
+    }
+   .mano{
+      width: 25vw;
+      margin: 50px;
+      
+
+   }
+   
+    .caracteristica-logo{
+      width: 20vw;
+      margin: 50px;
+
+    }
+    .buscador{
+         width: 20vw;
+
+
+    }
+
+}
+
+
+@media(min-width:769px){
+  /*nootbok*/
+
+   .caracteristica-header{
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+}
+
+.bus{
+      width: 20vw;
+      margin: 50px;
+
+    }
+   .mano{
+      width: 25vw;
+      margin: 50px;
+      
+
+   }
+   
+    .caracteristica-logo{
+      width: 20vw;
+      margin: 50px;
+
+    }
+    .buscador{
+         width: 20vw;
+
+
+    }
+    
+   .product-shadow{
+    box-shadow: none;
+     
+    }
+    .descripcion {
+     display:none;
+    }
+
+    .product-shadow:hover .descripcion{
+
+      display: block;
+    
+    }
+    .caracteristicas-productos {
+
+        width: 20vw;
+        background-color: white;
+        margin-bottom: 10px;
+        border: solid 1px #ebebeb;
+        box-sizing: border-box;
+        
+    }
+
+    .seccion-productos 
+    {
+        display:flex;
+        justify-content: space-between;
+    }
+    .buscar{
+
+      display:flex;
+    }
+
+     .cajanav {
+
+      display: contents;
+                  
+    }
+    .menu{
+
+      display: none;
+    }
+      
+  .oferta{
+
+    display: flex;
+    list-style: none;
+  }
+  .cuenta-lista{
+
+    display: flex;
+    list-style: none;
+    
+     justify-content: end;
+    
+  }
+ 
+  .ofertasheader{
+    width: 50%;
+       
+  }
+
+  .o {
+   padding: 15px;
+ 
+  }
+  .cuenta{
+    width: 50%;
+    
+    margin-top: 25px;
+    
+  }
+ .jota{
+
+  display: flex;
+  
+ }
+}
+@media(min-width:1281px){
+
+  /*escritorio*/
+
+
+   .caracteristica-header{
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+}
+
+.bus{
+      width: 20vw;
+      margin: 50px;
+
+    }
+   .mano{
+      width: 25vw;
+      margin: 50px;
+      
+
+   }
+   
+    .caracteristica-logo{
+      width: 20vw;
+      margin: 50px;
+
+    }
+    .buscador{
+         width: 20vw;
+
+
+    }
+   .caracteristicas-productos {
+
+       width: 20vw;
+        background-color: white;
+        margin-bottom: 10px;
+        border: solid 1px #ebebeb;
+        box-sizing: border-box;
+    }
+
+    .seccion-productos 
+    {
+     display:flex;
+        justify-content: space-between;
+
+    }
+
+    .cajanav {
+
+      display: contents;
+    }
+    
 }
