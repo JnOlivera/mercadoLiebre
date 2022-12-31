@@ -28,3 +28,14 @@ app.get ('/login',(req,res)=>{
 res.sendFile(path.resolve(__dirname,'views/login.html'));
 
 });
+app.get ('/mercado',(req,res)=>{
+
+res.sendFile(path.resolve(__dirname,'views/home.html'));
+
+});
+
+app.get ('/mercado1',(req,res)=>{
+
+res.sendFile(path.resolve(__dirname,'views/home.html'));
+
+});

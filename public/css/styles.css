@@ -48,6 +48,7 @@ padding-top: 15px;
 
   .formulario-busqueda{
     width: 50vw;
+  
   }
 .detalles-productos{
 
@@ -70,6 +71,12 @@ border-radius: 50%;
 position: absolute;
 right: 20px;
 top: -35px;
+
+   
+}
+.detalles-productos i:hover{
+-webkit-transform: rotate(360deg);
+transition: 1s ease-in-out;
    
 }
 
@@ -197,9 +204,9 @@ margin-left: auto;
   color: #39b54a;
   width: 80vw;
   font-size: 16px;
-
-
+  
 }
+
 
 .descripcion {
 
@@ -294,6 +301,10 @@ border: none;
 margin: 16px 0;
 color: white;
 }
+.buttons:hover{
+  background-color: rgb(57, 57, 104);
+  box-shadow: 0px 0px 10px rgb(120, 104, 136);
+}
 
 
 .buttons1{
@@ -310,6 +321,12 @@ color: white;
 margin-left: 25%;
 margin-top: 15px;
 }
+
+.buttons1:hover{
+  background-color: rgb(57, 57, 104);
+  box-shadow: 0px 0px 10px rgb(120, 104, 136);
+
+}
 .chex{
 
 padding-bottom: 15px;
@@ -322,6 +339,9 @@ flex-direction: column;
     width: 90vw;
     margin: auto;
     
+}
+.enviar:hover{
+  color: #ebebeb;
 }
 
 
@@ -342,6 +362,13 @@ flex-direction: column;
         margin-bottom: 10px;
         border: solid 1px #ebebeb;
         box-sizing: border-box;
+
+
+    }
+    .caracteristicas-productos:hover{
+      box-shadow: 0px 0px 10px rgb(100, 100, 100);
+      transform: translateY(-3%);
+      
 
     }
 
@@ -374,8 +401,16 @@ flex-direction: column;
     }
     .buscador{
          width: 20vw;
-
-
+         border-radius: solid 2px;
+         border-color: rgb(47, 47, 73);
+         border-radius: 5px;
+      
+    }
+    .lupita{
+        border-radius: solid 2px;
+         border-color: rgb(47, 47, 73);
+         border-radius: 5px;
+         
     }
 
 }
